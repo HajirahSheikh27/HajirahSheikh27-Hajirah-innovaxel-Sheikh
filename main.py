@@ -27,6 +27,7 @@ def home():
     </html>
     """
 
+# get db function
 def get_db():
     db = SessionLocal()
     try:
