@@ -3,6 +3,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
+
+# Database URL 
 DATABASE_URL = "sqlite:///./url_shortener.db"
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
