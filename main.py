@@ -8,6 +8,9 @@ from fastapi.responses import HTMLResponse
 
 from database import SessionLocal, create_tables, URL
 
+
+# app
+
 app = FastAPI()
 
 create_tables()
