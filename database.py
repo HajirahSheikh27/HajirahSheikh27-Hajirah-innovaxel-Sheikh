@@ -13,7 +13,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 
-# URL class
+
 
 class URL(Base):
     __tablename__ = "URL"
